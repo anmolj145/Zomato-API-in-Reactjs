@@ -1,0 +1,329 @@
+.App-header {
+  top:0;
+  height: 50px;
+  justify-content: center;
+  border-bottom:1px solid #bfbfbf ;
+}
+
+.logo{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:4px ;
+  font-size: 30px;
+  color:red;
+  width: 15%;
+  text-decoration: none;
+}
+
+.logo:hover{
+  text-decoration: none;
+  color:red;
+}
+
+.city-search-field{
+  margin-left: 1%;
+  border-top: none;
+  border-left:none ;
+  border-right:none ;
+  border-bottom:2px solid black ;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.sb{
+  float: left;
+  margin: 1%;
+  padding:1%;
+  border:2px solid #b3cccc ;
+  border-radius:5px ;
+  width: 300px;
+  height: 400px;
+}
+
+.click-card{
+text-decoration: none;
+color: black;
+}
+
+.click-card :hover{
+  text-decoration: none;
+  color:black;
+}
+
+.excess-text{
+ overflow: hidden;
+}
+
+.align-mb{
+  margin-left:50px ;
+  margin-bottom: 10px;
+}
+
+.align-mt{
+  margin-left:50px ;
+  margin-top: 20px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 33.33%;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.profile-image{
+  border-radius: 50%;
+}
+
+.sb-review{
+  float: left;
+  margin: 1%;
+  padding:1%;
+  border:2px solid #b3cccc ;
+  border-radius:5px ;
+  width: 98%;
+}
+
+.photo{
+  padding:10px;
+  display: inline-block;
+}
+
+.title_count{
+ margin-left: 10px;
+ margin-top: 10px;
+}
+
+.suggestion_item{
+  padding: 5px;
+  margin-left: 1%;
+  background-color:white;
+  width: 180px;
+  position: absolute;
+  z-index: 9;
+}
+
+.suggestion_item:hover{
+  cursor:pointer
+}
+
+.span-class{
+  font-size: 20px;
+}
+
+.name{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom:1px solid black ;
+}
+
+.menu-item{
+  border-collapse: collapse ;
+  padding-left:10px ;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #d9d9d9;
+}
+
+.checkout-button{
+ float: right;
+ margin-top: 15px;
+ margin-right: 30px;
+}
+
+.amount{
+  display: inline-block;
+}
+
+.subtotal-item{
+  widows: 50px;;
+  float :right;
+}
+
+.dialogbox{
+  align-self:center;
+}
+
+.dialog-list{
+  display: inline-block;
+}
+
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color:white;
+  background-color: #33373D
+}
+
+.ft{
+  margin-top:5px;
+  padding-top:5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.bottom{
+  margin-bottom: 60px;
+}
+
+html{
+  margin-bottom: 50px;
+}
+
+.city-name-display{
+  margin-top: 15px;
+  margin-right: 20px;
+  float:right;
+}
+
+.dialog-body{
+ width: 500px;
+}
+
+.item-price{
+ width: 30%;
+ display: inline-block;
+}
+
+.total-price{
+  width: 40%;
+  float:right;
+}
+
+.total{
+ width: 40%;
+ float: right;
+}
+
+.loader {
+  color:#b3b3b3;
+  margin-left: 40%;
+  font-size: 40px;
+} 
+
+.cart{
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 0.8%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.cart-total{
+  margin-left: 18%;
+}
+
+.cart-item-price{
+  width: 20%;
+  display: inline-block;
+ }
+ 
+.cart-item-total-price{
+  width: 18%;
+  display: inline-block;
+}
+
+.remove-button{
+  margin-left: 1%;
+  margin-right: 1%;
+  text-decoration: none;
+  border:none;
+  width:100px;
+}
+
+.empty-cart{
+  width:90%;
+  height:450px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* background-color:red; */
+  border: 2px solid #e6e6e6;
+}
+
+.empty-cart-title{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.empty-cart-icon{
+ margin-left: 33%;
+}
+
+.empty-cart-explore-text{
+ margin-left: 43.5%;
+}
+
+.empty-cart-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 44%;
+  cursor: pointer;
+}
+
+.menu{
+  top:60;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  padding-top: 10px;
+}
+
+.static-menu{
+  display: inline-block;
+  width: 70%;
+  left: 0;
+}
+
+.dynamic-menu{
+  display: inline-block;
+  width: 30%;
+  right: 0;
+  /* background-color: red; */
+}
+
+
+.ccf{
+ display: inline-block;
+}
+
+.flr{
+  padding-top:5px;
+  padding-right:20px;
+  float:right;
+}
+
+::placeholder {
+  color: black;
+}

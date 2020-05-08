@@ -1,0 +1,1 @@
+const KEY =' < Your API key here without any spaces> '
